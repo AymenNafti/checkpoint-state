@@ -10,7 +10,7 @@ class Person extends Component {
     
       bio: "Test",
         
-      imgSrc: "/me.png",
+      imgSrc: "Coming soon",
     
       profession: "Operations Manager",
     },
@@ -46,6 +46,7 @@ incrementCounter = () => {
             ))}
           </div>
         ) : null}
+       
         <button style={{
           background: '#0000FF',
             color: 'white', padding: 15, fontSize: 20,
@@ -56,6 +57,7 @@ incrementCounter = () => {
             this.setState({ visible: !this.state.visible });
           }}
         >
+          
           {buttonText}
         </button>
       </div>
