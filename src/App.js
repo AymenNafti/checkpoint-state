@@ -10,7 +10,7 @@ class Person extends Component {
     
       bio: "Test",
         
-      imgSrc: "/me",
+      imgSrc: "/me.png",
     
       profession: "Operations Manager",
     },
